@@ -1,0 +1,5 @@
+rubaba@gmail.com
+Some months have 31 days; how many have 28? why the answer is not one as February month has 28 days
+#####
+because the question is not about which month has 28 days
+answer is the months which includes 28 days so ans is 12

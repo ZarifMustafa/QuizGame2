@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="442.0" style="-fx-background-color: #F7E2B7;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.HelloController">
+   <children>
+      <ImageView fx:id="image" fitHeight="581.0" fitWidth="474.0" pickOnBounds="true">
+         <image>
+            <Image url="C:/Users/Guest1/IdeaProjects/demo4/src/main/resources/images/purplebg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="memory" fitHeight="186.0" fitWidth="247.0" layoutX="103.0" layoutY="194.0" onMouseClicked="#memoryfn" pickOnBounds="true">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\memory.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iq" fitHeight="193.0" fitWidth="247.0" layoutX="103.0" layoutY="191.0" onMouseClicked="#memoryfn" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\iq.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="education" fitHeight="193.0" fitWidth="247.0" layoutX="103.0" layoutY="191.0" onMouseClicked="#educationfn" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\education.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vocabulary" fitHeight="193.0" fitWidth="247.0" layoutX="103.0" layoutY="191.0" onMouseClicked="#memoryfn" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\vocabulary.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gk" fitHeight="193.0" fitWidth="247.0" layoutX="103.0" layoutY="191.0" onMouseClicked="#memoryfn" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\gk.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="entertainment" fitHeight="193.0" fitWidth="247.0" layoutX="103.0" layoutY="191.0" onMouseClicked="#memoryfn" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\entertainment.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="right" layoutX="361.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#rightfn" prefHeight="36.0" prefWidth="42.0" style="-fx-background-color: #F7E2B7;" text="&gt;" textFill="#201e20">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="left" layoutX="50.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#leftfn" prefHeight="36.0" prefWidth="42.0" style="-fx-background-color: #F7E2B7;" text="&lt;" textFill="#1b1a1b">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="gamename" alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="382.0" prefHeight="56.0" prefWidth="401.0" text="MEMORY" textFill="#f7e2b7">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

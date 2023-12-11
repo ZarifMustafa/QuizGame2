@@ -1,0 +1,250 @@
+4
+5
+30
+10
+
+Cow
+Tiger
+Snake
+Dog
+
+Country
+State
+City
+Animal
+
+Carrot
+Bean
+Corn
+Apple
+
+18
+16
+20
+21
+
+Daughter
+Aunt
+Uncle
+Nephew
+
+F
+K
+Z
+E
+
+Pen
+Envelope
+Book
+Mail
+
+Foolish
+Anxious
+Distraught
+Comprehensive
+
+Electricity
+Road
+Spoke
+Automobile
+
+6
+4
+2
+1
+
+Blackmailer
+Fawner
+Flutist
+Nobleman
+
+31313113
+31311313
+31311131
+13133313
+
+Bill is taller than Peter.
+Peter is taller than Bill.
+Bill is as tall as Peter.
+It is impossible to tell whether Bill or Peter is taller.
+
+15%
+20%
+25%
+30%
+
+Brass
+Copper
+Iron
+Tin
+
+1
+6
+9
+12
+
+One
+Every year
+Twice a year
+Every month
+
+2
+A window
+1
+0
+
+20
+7
+15
+Over 100
+
+3
+7
+24
+5
+
+8
+10
+11
+13
+
+9
+8
+13
+11
+
+155
+167
+170
+174
+
+25
+5
+1
+10
+
+37
+45
+43
+39
+
+Shark
+Dolphin
+Swordfish
+Turtle
+
+Fish
+River
+Planet
+Country
+
+N
+P
+M
+O
+
+Glider
+Parachute
+Jet
+Bird
+
+63
+84
+82
+91
+
+12 meters
+6 meters
+2 meters
+0 meters
+
+Coruscation
+Luminosity
+Lassitude
+Trenchancy
+
+1110
+1287
+987
+961
+
+Intel allegiance
+Elegant quote
+Tinted glint
+Quilt tent
+
+North
+West
+South
+East
+
+9
+11
+17
+29
+
+compassionate
+comforting
+explanatory
+meddlesome
+
+6
+17
+19
+21
+
+starch
+strong
+tender
+masculine
+
+cord
+electricity
+heat
+gas
+
+injustice
+complaint
+futile
+sin
+
+Spain
+United Kingdom
+Australia
+Sweden
+
+Businesses
+Roads
+Cars
+Buildings
+
+Chairman
+CEO
+President
+Queen
+
+H R G S T
+R I L S A
+T O O M Q
+W Q R G S
+
+drawing
+writing
+stirring
+eating
+
+talkative and wind
+job and angry
+talkative and loquacious
+ecstatic and angry
+
+Criminals are free
+Law enforcement is weak
+Evidence and witnesses no longer cooperate
+The possibility of solving the case is almost impossible
+
+Hippocrates
+Herodotus
+Aristotle
+Guttenberg
+

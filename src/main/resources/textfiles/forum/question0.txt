@@ -1,0 +1,7 @@
+zarif@gmail.com
+What is molality?
+#####
+Molality is defined as the ration of the no of grams moles of solute per kg of solvent.
+Molality is ratio of no of moles present in 1kg of solvent.
+Molality is the amount of substance of a solute present per unit volume of solvent;the volume measured is that of solvent, not the solution
+sth

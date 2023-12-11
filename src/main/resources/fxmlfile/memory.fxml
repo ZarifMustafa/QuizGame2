@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="602.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.MemoryController">
+   <ImageView fitHeight="750.0" fitWidth="855.0" layoutX="-40.0" pickOnBounds="true">
+      <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\quesbg.jpg" />
+   </ImageView>
+   <Label fx:id="question" alignment="TOP_LEFT" layoutX="134.0" layoutY="147.0" prefHeight="187.0" prefWidth="490.0" text="question" textFill="#f5f7f4" wrapText="true">
+      <font>
+         <Font size="28.0" />
+      </font>
+   </Label>
+   <RadioButton fx:id="ans1" layoutX="129.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#correctAnsShow" prefHeight="43.0" prefWidth="525.0" text="Ans1" textFill="#fafcfb">
+      <toggleGroup>
+         <ToggleGroup fx:id="answer" />
+      </toggleGroup>
+      <font>
+         <Font size="20.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="ans2" layoutX="129.0" layoutY="390.0" mnemonicParsing="false" onMouseClicked="#correctAnsShow" prefHeight="43.0" prefWidth="525.0" text="Ans2" textFill="WHITE" toggleGroup="$answer">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="ans3" layoutX="129.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#correctAnsShow" prefHeight="43.0" prefWidth="525.0" text="Ans3" textFill="WHITE" toggleGroup="$answer">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </RadioButton>
+   <RadioButton fx:id="ans4" layoutX="127.0" layoutY="478.0" mnemonicParsing="false" onMouseClicked="#correctAnsShow" prefHeight="43.0" prefWidth="525.0" text="Ans4" textFill="WHITE" toggleGroup="$answer">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </RadioButton>
+   <Button fx:id="Submit" layoutX="688.0" layoutY="691.0" mnemonicParsing="false" onMouseClicked="#submit_korsi" prefHeight="34.0" prefWidth="91.0" text="Next" textFill="#a90a8f">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+   <Label fx:id="correct" layoutX="314.0" layoutY="522.0" prefHeight="58.0" prefWidth="156.0" text="Correct!" textFill="#b4d9ef" visible="false">
+      <font>
+         <Font name="System Bold Italic" size="36.0" />
+      </font>
+   </Label>
+   <Label fx:id="incorrect" layoutX="287.0" layoutY="522.0" prefHeight="58.0" prefWidth="184.0" text="Incorrect!" textFill="#e4b2d6" visible="false">
+      <font>
+         <Font name="System Bold Italic" size="36.0" />
+      </font>
+   </Label>
+   <Label fx:id="ca" alignment="CENTER" contentDisplay="CENTER" layoutX="114.0" layoutY="667.0" prefHeight="78.0" prefWidth="437.0" text="Correct?" textFill="#f5fafa" visible="false" wrapText="true">
+      <font>
+         <Font name="System Italic" size="26.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="230.0" layoutY="40.0" prefHeight="50.0" prefWidth="322.0" text="Let's Quizzit" textFill="#d17dc9">
+      <font>
+         <Font name="System Bold Italic" size="36.0" />
+      </font>
+   </Label>
+   <Circle fill="DODGERBLUE" layoutX="717.0" layoutY="69.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
+   <Label fx:id="time" layoutX="700.0" layoutY="46.0" prefHeight="43.0" prefWidth="105.0" text="30" textFill="#b41fac">
+      <font>
+         <Font name="System Bold Italic" size="28.0" />
+      </font>
+   </Label>
+   <ImageView fx:id="memorypic" fitHeight="750.0" fitWidth="815.0" pickOnBounds="true" visible="false">
+      <image>
+         <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\memoryimg\1.jpg" />
+      </image>
+   </ImageView>
+   <Label fx:id="observe" alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="750.0" prefWidth="818.0" style="-fx-background-color: #e6ede8;" text="Observe the images carefully" textFill="#2769dc" visible="false">
+      <font>
+         <Font size="42.0" />
+      </font>
+   </Label>
+</AnchorPane>

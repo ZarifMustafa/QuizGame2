@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.HomeController">
+   <children>
+      <AnchorPane prefHeight="471.0" prefWidth="611.0" style="-fx-background-color: #020202;">
+         <children>
+            
+            <Button fx:id="guest" layoutX="201.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#display_guest" prefHeight="22.0" prefWidth="195.0" style="-fx-background-color: #0E1331;" text="PLAY AS GUEST" textFill="#d3a9d1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="login" layoutX="201.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#display_login" prefHeight="22.0" prefWidth="195.0" style="-fx-background-color: #0E1331;" text="LOGIN" textFill="#fcfcf8">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="register" layoutX="201.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#display_register" prefHeight="22.0" prefWidth="195.0" style="-fx-background-color: #0E1331;" text="REGISTER" textFill="#d9e17c">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="about" layoutX="524.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#go_to_about" style="-fx-background-color: BLACK;" text="ABOUT US" textFill="#d4e70a" />
+            <Button fx:id="help" layoutX="21.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#go_to_help" style="-fx-background-color: BLACK;" text="HELP" textFill="#cde116" />
+            <ImageView fitHeight="196.0" fitWidth="296.0" layoutX="199.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\quiztime.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

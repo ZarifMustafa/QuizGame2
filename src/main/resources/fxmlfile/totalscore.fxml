@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.ScoreController">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="611.0" layoutX="-7.0" pickOnBounds="true">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\pinkscorebg.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="scorecard" alignment="CENTER" layoutX="235.0" layoutY="167.0" prefHeight="81.0" prefWidth="130.0" text="Label" textFill="#e9ef9c">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="121.0" text="TOTAL SCORE" textFill="#e9ef9c">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="249.0" prefHeight="35.0" prefWidth="206.0" text="It's quizzelous, right?" textFill="#dcdcd3">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="playagain" layoutX="249.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#playagainfn" prefHeight="29.0" prefWidth="98.0" text="PLAY AGAIN" textFill="#9ca40a">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

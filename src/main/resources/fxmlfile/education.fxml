@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../cssfile/expansion.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.EducationController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\Kala.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="physics" fitHeight="134.0" fitWidth="151.0" layoutX="116.0" layoutY="41.0" onMouseClicked="#physicsfn" pickOnBounds="true" styleClass="Expand">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\physics.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chemistry" fitHeight="134.0" fitWidth="151.0" layoutX="306.0" layoutY="41.0" onMouseClicked="#chemistryfn" pickOnBounds="true" styleClass="Expand">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\chemistry.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="biology" fitHeight="134.0" fitWidth="151.0" layoutX="116.0" layoutY="214.0" onMouseClicked="#biologyfn" pickOnBounds="true" styleClass="Expand">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\biology.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="math" fitHeight="134.0" fitWidth="151.0" layoutX="306.0" layoutY="214.0" onMouseClicked="#mathfn" pickOnBounds="true" styleClass="Expand">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\math.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
